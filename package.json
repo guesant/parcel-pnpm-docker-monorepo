@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "format": "echo no formatter specified && exit",
+    "lint": "echo no linter specified && exit 1",
+    "lint:fix": "pnpm run lint -- --fix",
+    "dev": "pnpm run --filter @packages/app start",
+    "build": "pnpm run --filter @packages/app build"
+  }
+}

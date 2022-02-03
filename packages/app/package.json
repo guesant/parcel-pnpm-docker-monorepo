@@ -1,0 +1,15 @@
+{
+  "name": "@packages/app",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@packages/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.2.1",
+    "parcel": "^2.2.1",
+    "parcel-resolver-pnpm": "^0.0.1"
+  }
+}
